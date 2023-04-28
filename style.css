@@ -6,6 +6,11 @@ body {
     background-color: var(--tg-theme-bg-color);
 }
 
+.form {
+    display: none;
+    text-align: center;
+}
+
 .container {
     max-width: 390px;
 }
