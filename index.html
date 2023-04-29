@@ -94,13 +94,13 @@ input:focus {
     <button id="order">Оформить</button>
 </form>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
+        <script>
 	let tg = window.Telegram.WebApp;
-let btn1 = document.getElementById("btn1");
+let btn1 = document.getElementById("buy");
 let order = document.getElementById("order");
 
-btn1.addEventListener("click", () =>{
-    document.getElementById("container").style.display = "none";
+buy.addEventListener("click", () =>{
+    document.getElementById("main").style.display = "none";
     document.getElementById("form").style.display = "block";
     document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " "+ tg.initDataUnsafe.user.last_name;
 });
